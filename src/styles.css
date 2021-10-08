@@ -1,0 +1,148 @@
+body {
+  background: rgb(154, 184, 212);
+}
+
+button {
+  background: salmon;
+  border: 2px solid salmon;
+  color: white;
+  border-radius: 4px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+}
+button:hover {
+  background: pink;
+  border: 2px solid lightsalmon;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+}
+input {
+  background: white;
+  border: 2px solid salmon;
+  color: grey;
+  border-radius: 4px;
+  font-family: "Urbanist", sans-serif;
+  margin-top: 15px;
+}
+
+form {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: rgb(99, 99, 99);
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  list-style: none;
+}
+margins {
+  display: block;
+  margin: 0 auto;
+}
+hr {
+  margin: 50px auto;
+  opacity: 100%;
+}
+
+.border {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px 0px rgb(99 99 99 / 42%);
+  padding: 0;
+  margin: 75px;
+}
+.sentence {
+  color: salmon;
+  font-family: "Urbanist", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+.sky-image {
+  border: 6px solid whitesmoke;
+  border-radius: 50px;
+  max-height: 580px;
+  max-width: 1580px;
+  opacity: 50%;
+}
+.cloud-sky {
+  margin: 15px;
+  border: none;
+}
+
+.date,
+.time {
+  color: salmon;
+  text-align: right;
+  font-family: "Urbanist", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.temperature,
+.units,
+.city {
+  color: white;
+  font-family: "Urbanist", sans-serif;
+  font-size: 70px;
+}
+
+.celsius {
+  font-weight: 900;
+}
+.degrees-celsius,
+.degrees-fahrenheit {
+  text-decoration: none;
+  color: white;
+}
+.degrees-celsius:hover,
+.degrees-fahrenheit:hover {
+  text-decoration: none;
+  color: white;
+}
+.futureTemp {
+  color: rgb(99, 99, 99);
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.row {
+  margin: 0 auto;
+}
+.smallWeather {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.main-icon {
+  text-align: center;
+  font-size: 200px;
+}
+.weekdays {
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: salmon;
+}
+#button {
+  background: salmon;
+  border: 2px solid salmon;
+  color: white;
+  border-radius: 4px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+}
+#button:hover {
+  background: pink;
+  border: 2px solid lightsalmon;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+}
