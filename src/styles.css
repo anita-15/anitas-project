@@ -20,7 +20,7 @@ button:hover {
 input {
   background: white;
   border: 2px solid salmon;
-  color: grey;
+  color: rgb(99, 99, 99);
   border-radius: 4px;
   font-family: "Urbanist", sans-serif;
   margin-top: 15px;
@@ -56,6 +56,17 @@ hr {
   padding: 0;
   margin: 75px;
 }
+.by-me {
+  color: rgb(154, 184, 212);
+  font-family: "Urbanist", sans-serif;
+  font-size: 12px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.open-source {
+  text-decoration: none;
+}
+
 .sentence {
   color: salmon;
   font-family: "Urbanist", sans-serif;
